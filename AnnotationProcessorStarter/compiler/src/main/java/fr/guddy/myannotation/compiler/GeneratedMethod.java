@@ -57,7 +57,7 @@ public final class GeneratedMethod {
         pMethodBuilder.addCode("$S, $S", mClassElement.getQualifiedName() + "." + mMethodElement.getSimpleName(), "called");
 
         if (!mIsStaticMethod) {
-            pMethodBuilder.addCode(" + $S + $N", "on ", "instance");
+            pMethodBuilder.addCode(" + $S + $N", " on ", "instance");
         }
 
         pMethodBuilder.addCode(" + $S", " with ");
@@ -65,7 +65,7 @@ public final class GeneratedMethod {
         final Iterator<? extends VariableElement> lIterator = mMethodElement.getParameters().iterator();
         while (lIterator.hasNext()) {
             final VariableElement lParamElement = lIterator.next();
-            // add "key:" + value
+            // add "key=" + value
             pMethodBuilder.addCode(" + $S + $N", lParamElement.getSimpleName() + "=", lParamElement.getSimpleName());
             // add "," for next parameter
             if (lIterator.hasNext()) {

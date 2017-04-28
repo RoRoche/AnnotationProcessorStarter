@@ -3,7 +3,6 @@ package fr.guddy.myannotation.compiler;
 import com.google.auto.service.AutoService;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 import javax.annotation.processing.AbstractProcessor;
@@ -48,7 +47,7 @@ public class MyProcessor extends AbstractProcessor {
     //region abstract methods declared in AbstractProcessor
     @Override
     public boolean process(final Set<? extends TypeElement> pSet, final RoundEnvironment pRoundEnvironment) {
-        final List<AnnotatedClass> lAnnotatedClasses = new AnnotatedMethods(pRoundEnvironment).enclosingClasses().annotatedClasses();
+        final AnnotatedClasses lAnnotatedClasses = new AnnotatedMethods(pRoundEnvironment).enclosingClasses();
 
         for (final AnnotatedClass lClass : lAnnotatedClasses) {
             lClass.writeInto(mFiler, mMessager);
