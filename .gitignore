@@ -40,3 +40,5 @@ captures/
 *.jks
 
 *.bat
+
+.DS_Store
