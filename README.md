@@ -2,6 +2,8 @@
 
 Project to set up basics of a Java annotation processor.
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AnnotationProcessorStarter-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/5665)
+
 ![logo](https://raw.githubusercontent.com/RoRoche/AnnotationProcessorStarter/master/assets/logo.png)
 
 <!-- run the following command line: markdown-toc -i README.md -->
