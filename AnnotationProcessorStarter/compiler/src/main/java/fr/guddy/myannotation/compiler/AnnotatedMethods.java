@@ -30,9 +30,7 @@ public final class AnnotatedMethods {
             if (lElement instanceof ExecutableElement) {
                 final ExecutableElement lMethod = (ExecutableElement) lElement;
                 final TypeElement lClass = (TypeElement) lMethod.getEnclosingElement();
-
-                final AnnotatedClass lAnnotatedClass = lAnnotatedClasses.annotatedClassForClass(lClass);
-                lAnnotatedClass.addMethod(lMethod);
+                lAnnotatedClasses.appendMethodToClass(lClass, lMethod);
             }
         }
 
