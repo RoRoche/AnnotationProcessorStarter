@@ -40,6 +40,11 @@ Project to set up basics of a Java annotation processor.
 
 > Assertion/Proposition framework for Java unit tests
 
+## Distribution
+
+- <https://medium.com/@daniellevass/how-to-publish-your-android-studio-library-to-jcenter-5384172c4739>
+- <https://inthecheesefactory.com/blog/how-to-upload-library-to-jcenter-maven-central-as-dependency/en>
+
 ## Bibliography
 
 - <http://hannesdorfmann.com/annotation-processing/annotationprocessing101>
