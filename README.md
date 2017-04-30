@@ -12,6 +12,7 @@ Project to set up basics of a Java annotation processor.
 
 - [Motivations](#motivations)
 - [Technical base](#technical-base)
+- [Distribution](#distribution)
 - [Bibliography](#bibliography)
 - [Logo credits](#logo-credits)
 
